@@ -1,4 +1,4 @@
-num = 1234
+num = int(input())
 reversed_num = 0
 
 while num != 0:
