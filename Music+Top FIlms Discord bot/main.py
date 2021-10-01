@@ -255,7 +255,7 @@ async def ping(ctx):
     
 @client.command(help='Gives The weather Update of a City')
 async def weather(ctx,city):
-    API='a1c9c5b112d5237121d28c1a391ddf08'
+    API=''
     with urllib.request.urlopen(f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API}&units=metric') as response:
         source=response.read()
         data=json.loads(source)
