@@ -103,4 +103,4 @@ print("Encrypted Message: {}".
 print("Decryped Message: {}".
        format(decryptMessage(cipher)))
   
-# This code is contributed by Aditya K
+# This code is contributed by Rexxy
